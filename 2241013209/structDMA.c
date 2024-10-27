@@ -40,5 +40,7 @@ int main() {
         printf("Cgpa: %.2f\n", ptr[i].cgpa);
     }
 
+    free(ptr);
+
     return 0;
 }
